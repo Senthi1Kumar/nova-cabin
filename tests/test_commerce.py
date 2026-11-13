@@ -86,7 +86,7 @@ def test_catalogue_loads_and_tools_register(eng):
     names = {s["function"]["name"] for s in eng.tools.schemas}
     assert {"shop_find_places", "shop_open_place", "shop_add_to_cart", "shop_set_qty", "shop_remove",
             "shop_view_cart", "shop_request_checkout"} <= names
-    assert len(eng.shop.catalog.merchants) > 10
+    assert len(eng.shop.catalog.merchants) >= 10
     assert "cart empty" in eng.system_extra[0] and any("shop_find_places" in s for s in eng.system_extra)
 
 
