@@ -1,0 +1,58 @@
+{
+  "_doc": "Landmarks in portrait pixel space. Re-measure when swapping the portrait (tools/avatar_preview.py --grid helps).",
+  "image": "portrait.png",
+  "size": [
+    490,
+    630
+  ],
+  "mouth": {
+    "cx": 369,
+    "seam_center": 294,
+    "seam_corner": 288,
+    "half_width": 32,
+    "upper_lip_top": 277,
+    "chin": 350,
+    "jaw_px": 14
+  },
+  "eyes": [
+    {
+      "cx": 327,
+      "cy": 197.5,
+      "half_w": 25,
+      "half_h": 8.5,
+      "lid_px": 17,
+      "gaze_px": [
+        3.2,
+        1.8
+      ],
+      "lash_px": 8
+    },
+    {
+      "cx": 405,
+      "cy": 200,
+      "half_w": 16,
+      "half_h": 8.0,
+      "lid_px": 14,
+      "gaze_px": [
+        1.6,
+        1.2
+      ],
+      "lash_px": 7
+    }
+  ],
+  "brows": {
+    "cx": 360,
+    "cy": 166,
+    "sx": 62,
+    "sy": 16,
+    "raise_px": 4
+  },
+  "head": {
+    "pivot": [
+      340,
+      400
+    ],
+    "neck_top": 335,
+    "neck_bottom": 425
+  }
+}

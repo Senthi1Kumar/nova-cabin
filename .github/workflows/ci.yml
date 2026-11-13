@@ -1,0 +1,35 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-24.04-arm
+    env:
+      QT_QPA_PLATFORM: offscreen
+      NOVA_AUDIO_MUTE: "1"
+      HF_HUB_OFFLINE: "1"
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - name: System libraries
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y --no-install-recommends libegl1 libgl1 libxkbcommon0 libdbus-1-3 \
+            libfontconfig1 libxcb-cursor0 libportaudio2 libsndfile1 espeak-ng
+      - name: Install
+        run: |
+          python -m pip install --upgrade pip pytest pytest-asyncio ruff
+          pip install -r requirements.txt -r requirements-pi.txt
+          pip install packaging/vendor/driveauth_edge-*.whl
+      - run: bash -n setup.sh run.sh
+      - run: pytest tests -q -p no:cacheprovider

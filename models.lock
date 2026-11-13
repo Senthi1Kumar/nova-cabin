@@ -1,0 +1,15 @@
+# Model manifest read by setup.sh and scripts/doctor.py.
+# Columns: name | path | sha256 | source
+#   path    relative to the DriveOS models directory ($XDG_DATA_HOME/drive-os/models); "@hf/..." is relative to the
+#           Hugging Face hub cache and may contain a glob
+#   sha256  "-" = not pinned (machine-built artifact)
+#   source  url:<https url> | cmd:<fetch command run by setup.sh> | build:<builder>
+silero_vad.onnx|silero_vad.onnx|1a153a22f4509e292a94e67d6f9b85e8deb25b4988682b7e174c65279d8788e3|url:https://github.com/snakers4/silero-vad/raw/v6.2/src/silero_vad/data/silero_vad.onnx
+smart-turn-v3.2-cpu.onnx|smart-turn-v3.2-cpu.onnx|2bb026316b14a660486a75b1733cd3fbab8c2fd0314dc9af7be49f8cca967e4f|url:https://huggingface.co/pipecat-ai/smart-turn-v3/resolve/f766f81d3cfdf7737ac64aad813d91bbfd56bf93/smart-turn-v3.2-cpu.onnx
+parakeet-tdt-ctc-110m|parakeet/tdt_ctc-110m-q8_0.gguf|614feee3a990cf0e672b0314f4da0c80ae8da9094507f5ccb7c42e43b5fc5a12|cmd:driveos fetch-models
+libparakeet.so|parakeet/libparakeet.so|-|build:parakeet
+phonon-31m-en|@hf/models--gradium--phonon-31m-en/snapshots/*/model.safetensors|8a04cf833cfe69b67c2ec968b2d31244655b9accc84ade9c0ebcc176f2074607|cmd:driveos fetch-models
+redimnet2-b6|redimnet2-b6/ReDimNet2B6.onnx|d960e9f713eaba712f44498e82221b6fc12fcd7eaacd367c9eac45d3a6ce59ec|cmd:driveos fetch-models
+wespeaker-r34|wespeaker-r34/wespeaker-resnet34.onnx|8623198853839519a9d787a42f9020b24287dd175b0b5167701ac47307c55521|cmd:driveos fetch-models
+aasist-l|aasist-l/aasist-l.onnx|0141b6e64afcdb7cb03bea48cda82f1d36fdfebd1b8fbb2e5f9df21aad71e078|cmd:driveos fetch-models
+cohort|cohort/cohort.npz|2f23440467d89d00201923f0f2ad30602d29b0a7357cfe91d0eb4ef2669d940f|cmd:driveos fetch-models

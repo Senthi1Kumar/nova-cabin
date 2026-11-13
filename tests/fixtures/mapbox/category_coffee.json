@@ -1,0 +1,29 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {"type": "Point", "coordinates": [78.7100, 10.8000]},
+      "properties": {
+        "mapbox_id": "cafe-slow-near",
+        "name": "Slow Near Cafe",
+        "full_address": "West Boulevard, Tiruchirappalli",
+        "poi_category_ids": ["coffee"],
+        "distance": 400,
+        "metadata": {"rating": 4.2}
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {"type": "Point", "coordinates": [78.8200, 10.9100]},
+      "properties": {
+        "mapbox_id": "cafe-fast-far",
+        "name": "Fast Far Cafe",
+        "full_address": "Cantonment, Tiruchirappalli",
+        "poi_category_ids": ["coffee"],
+        "distance": 15000,
+        "metadata": {"rating": 4.7}
+      }
+    }
+  ]
+}

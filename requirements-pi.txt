@@ -1,0 +1,5 @@
+# Raspberry Pi 5 additions, installed by setup.sh after requirements.txt.
+# DriveAuth (packaging/vendor/driveauth_edge-*.whl) is installed by setup.sh from the wheel.
+driveos[voice,biometrics] @ git+https://github.com/Senthi1Kumar/drive-os@v1.2.0
+psutil>=5.9
+pyusb>=1.2  # XVF3800 direction of arrival (control endpoint)

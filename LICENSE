@@ -1,0 +1,31 @@
+Nova Cabin Proprietary Software Licence
+
+Copyright (c) 2026 Elevatics AI. All rights reserved.
+
+This software, including its source code, documentation, assets, build scripts and any compiled form of them
+(together, the "Software"), is the proprietary property of Elevatics AI ("Elevatics").
+
+1. No licence without agreement. Use, copying, modification, compilation, distribution, sublicensing, hosting and any
+   other exploitation of the Software are permitted only under a written agreement with Elevatics AI. Having access to
+   this repository, to a release artefact or to a copy of the Software does not grant any right to it.
+
+2. Evaluation access. Where Elevatics grants repository or release access for evaluation, that access is limited to
+   the named recipient, to internal evaluation, and to the period stated by Elevatics. It does not include the right
+   to redistribute the Software or to use it in a product, a vehicle or a service.
+
+3. Reservation of rights. All rights not expressly granted in a written agreement are reserved. Names, logos and
+   marks of Elevatics AI and Nova Cabin are not licensed.
+
+4. Third-party components. The Software includes or interoperates with third-party components, models and services.
+   Those are not covered by this licence; each is used under its own licence or terms, listed in
+   THIRD_PARTY_NOTICES.md, and nothing in this licence restricts rights that those licences grant to you. Copies of
+   the licence texts are in the licenses/ directory and next to the components that carry them.
+
+5. No warranty. The Software is provided "as is", without warranty of any kind, express or implied, including
+   merchantability, fitness for a particular purpose, non-infringement and safety or regulatory suitability for use in a
+   vehicle. To the maximum extent permitted by law, Elevatics is not liable for any claim, damages or other liability
+   arising from the Software or its use.
+
+6. Termination. Any permission granted under a written agreement ends automatically if its terms are breached.
+
+For licensing enquiries, contact Elevatics AI: info@elevatics.com

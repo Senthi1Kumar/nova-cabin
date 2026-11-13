@@ -1,0 +1,18 @@
+{
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {"contour": 10},
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [78.60, 10.70],
+          [78.90, 10.70],
+          [78.90, 10.95],
+          [78.60, 10.95],
+          [78.60, 10.70]
+        ]]
+      }
+    }
+  ]
+}

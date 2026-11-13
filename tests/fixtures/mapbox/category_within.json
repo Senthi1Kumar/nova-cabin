@@ -1,0 +1,29 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {"type": "Point", "coordinates": [78.7500, 10.8200]},
+      "properties": {
+        "mapbox_id": "mall-inside",
+        "name": "Inside Mall",
+        "full_address": "Rockfort, Tiruchirappalli",
+        "poi_category_ids": ["shopping_mall"],
+        "distance": 1200,
+        "metadata": {"rating": 4.4}
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {"type": "Point", "coordinates": [79.5000, 11.5000]},
+      "properties": {
+        "mapbox_id": "mall-outside",
+        "name": "Outside Mall",
+        "full_address": "Far Town",
+        "poi_category_ids": ["shopping_mall"],
+        "distance": 90000,
+        "metadata": {"rating": 4.1}
+      }
+    }
+  ]
+}
