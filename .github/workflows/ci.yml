@@ -32,4 +32,4 @@ jobs:
           pip install -r requirements.txt -r requirements-pi.txt
           pip install packaging/vendor/driveauth_edge-*.whl
       - run: bash -n setup.sh run.sh
-      - run: pytest tests -q -p no:cacheprovider
+      - run: python -m pytest tests -q -p no:cacheprovider
